@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Autocomplete Password Test</title>
+    <script>
+function toggleType() {
+    var el = document.getElementById("pw");
+    if (el.type =="password") {
+        el.type = "text";
+    } else {
+        el.type = "password";
+    }
+}
+    </script>
+</head>
+<body>
+    <form action="https://lanmaster53.com">
+        Username:<br>
+        <input type="text" name="username" value=""><br>
+        Password:<br>
+        <input id="pw" type="password" name="lastname" value="">
+        <input type="button" value="Toggle" onclick="toggleType();"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
